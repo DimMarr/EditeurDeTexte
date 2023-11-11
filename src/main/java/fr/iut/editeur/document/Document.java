@@ -29,7 +29,9 @@ public class Document {
         String textMaj =  texte.substring(start,end).toUpperCase();
         remplacer(start,end,textMaj);
     }
-
+    public void effacer(int start, int end) {
+        remplacer(start,end,"");
+    }
     @Override
     public String toString() {
         return this.texte;
