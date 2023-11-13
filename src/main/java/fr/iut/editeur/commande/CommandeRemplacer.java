@@ -20,4 +20,11 @@ public class CommandeRemplacer extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("=== Remplacer ===");
+        System.out.println("La commande ajouter se présente sous la forme: remplacer;début;fin;texte");
+        System.out.println("Elle permet de remplacer le texte pas le texte indiqué entre le début et la fin");
+    }
+
 }

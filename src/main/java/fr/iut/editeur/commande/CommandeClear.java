@@ -19,4 +19,11 @@ public class CommandeClear extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("=== Clear ===");
+        System.out.println("La commande clear se présente sous la forme: clear");
+        System.out.println("Elle permet de surppimer tout le texte déjà écrit");
+    }
+
 }
