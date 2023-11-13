@@ -20,4 +20,11 @@ public class CommandeAjouter extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("=== Ajouter ===");
+        System.out.println("La commande ajouter se présente sous la forme: ajouter;texte");
+        System.out.println("Elle permet d'ajouter du texte, tout simplement...");
+    }
+
 }

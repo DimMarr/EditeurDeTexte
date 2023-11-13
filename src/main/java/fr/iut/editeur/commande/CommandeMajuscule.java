@@ -19,4 +19,11 @@ public class CommandeMajuscule extends CommandeDocument {
         this.document.majuscules(Integer.parseInt(start),Integer.parseInt(end));
         super.executer();
     }
+
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("=== Majuscule ===");
+        System.out.println("La commande ajouter se présente sous la forme: majuscule;départ;fin");
+        System.out.println("Elle permet de mettre en majuscule le texte entre le départ et la fin");
+    }
 }

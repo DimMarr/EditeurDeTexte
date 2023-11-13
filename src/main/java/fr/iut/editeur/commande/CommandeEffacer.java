@@ -19,4 +19,10 @@ public class CommandeEffacer extends CommandeDocument {
         this.document.effacer(Integer.parseInt(start),Integer.parseInt(end));
         super.executer();
     }
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("=== Effacer ===");
+        System.out.println("La commande effacer se présente sous la forme: effacer;départ;fin");
+        System.out.println("Elle permet d'éffacer le texte entre le départ et la fin indiquée");
+    }
 }

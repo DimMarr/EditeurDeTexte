@@ -29,6 +29,10 @@ public class Document {
         String textMaj =  texte.substring(start,end).toUpperCase();
         remplacer(start,end,textMaj);
     }
+    public void minuscules(int start, int end) {
+        String textMin =  texte.substring(start,end).toLowerCase();
+        remplacer(start,end,textMin);
+    }
     public void inserer(int index,String inserer){
         String leftPart = texte.substring(0,index);
         String rightPart = texte.substring(index);
