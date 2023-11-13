@@ -33,7 +33,7 @@ public class Document {
         remplacer(start,end,"");
     }
     public void clear(){
-        texte = " _";
+        texte = "";
     }
     @Override
     public String toString() {
