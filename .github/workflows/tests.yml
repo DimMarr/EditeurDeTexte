@@ -11,5 +11,5 @@ jobs:
         with:
           java-version: 17
       - name: maven
-        uses: mvn test
+        run: mvn test
 
