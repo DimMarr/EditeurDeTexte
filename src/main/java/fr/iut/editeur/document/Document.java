@@ -17,7 +17,7 @@ public class Document {
     }
 
     public void ajouter(String texte) {
-        this.texte += texte;
+        this.texte += texte+"[Bug]";
     }
 
     public void remplacer(int start, int end, String remplacement) {

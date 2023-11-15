@@ -1,4 +1,4 @@
-name : workflow
+name : workflow-commande
 on: push
 jobs:
   job1:
