@@ -1,0 +1,8 @@
+name : workflow
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: DocumentTest
+        uses: src/test/java/fr.iut.editeur.docuement/DocumentTest
