@@ -4,5 +4,12 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: DocumentTest
-        uses: src/test/java/fr.iut.editeur.docuement/DocumentTest
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: 17
+      - name: maven
+        uses: mvn test
+
