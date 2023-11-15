@@ -1,5 +1,6 @@
 name : workflow-commande
 on: push
+
 jobs:
   job1:
     runs-on: ubuntu-latest
