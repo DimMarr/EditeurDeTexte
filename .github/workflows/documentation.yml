@@ -1,4 +1,4 @@
-name : workflow-commande
+name : workflow-docuementation
 on:
   push:
     branches:
